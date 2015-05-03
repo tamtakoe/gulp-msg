@@ -1,0 +1,33 @@
+{
+  "name": "gulp-msg",
+  "description": "show command line messages",
+  "version": "0.0.1",
+  "repository": "tamtakoe/gulp-msg",
+  "author": "tamtakoe <tamtakoe@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin", "notification"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.3",
+    "gulp-util": "^3.0.0",
+    "lodash": "^3.0.0",
+    "lodash-deep": "^1.6.0",
+    "pretty-hrtime": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/tamtakoe/gulp-msg/issues"
+  },
+  "homepage": "https://github.com/tamtakoe/gulp-msg",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
