@@ -15,14 +15,19 @@ var msg = require('gulp-msg');
 ```
 
 ## API
-### info
-### success
-### warning
-### error
-### note
-### time
+#### info, success, warning, error, note, time
 
 ![screenshot](https://github.com/tamtakoe/gulp-msg/raw/master/example.png)
+
+```js
+msg.Info('--', 'Notice!', '*');
+msg.Info('style: <%= style %>', {style: 'info'});
+msg.Success('style: <%= style %>', {style: 'success'});
+msg.Warning('style: <%= style %>', {style: 'warning'});
+msg.Error('style: <%= style %>', {style: 'error'});
+msg.Note('style: <%= style %>', {style: 'note'});
+msg.Time('style: <%= style %>', {style: 'time'});
+```
 
 For example `info`
 Use `msg.info` for each file into the stream
