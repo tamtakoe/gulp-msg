@@ -22,6 +22,8 @@ var msg = require('gulp-msg');
 ### note
 ### time
 
+![screenshot](https://github.com/tamtakoe/gulp-msg/raw/master/example.png)
+
 For example `info`
 Use `msg.info` for each file into the stream
 
