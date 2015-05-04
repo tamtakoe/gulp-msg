@@ -14,12 +14,12 @@ npm install gulp-msg
 var msg = require('gulp-msg');
 
 msg.Info('--', 'Notice!', '*');
-msg.Info   ('style: <%= style %>', {style: 'info'});
-msg.Success('style: <%= style %>', {style: 'success'});
-msg.Warning('style: <%= style %>', {style: 'warning'});
-msg.Error  ('style: <%= style %>', {style: 'error'});
-msg.Note   ('style: <%= style %>', {style: 'note'});
-msg.Time   ('style: <%= style %>', {style: 'time'});
+msg.Info   ('style: <%= name %>', {name: 'info'});
+msg.Success('style: <%= name %>', {name: 'success'});
+msg.Warning('style: <%= name %>', {name: 'warning'});
+msg.Error  ('style: <%= name %>', {name: 'error'});
+msg.Note   ('style: <%= name %>', {name: 'note'});
+msg.Time   ('style: <%= name %>', {name: 'time'});
 ```
 
 ![screenshot](https://github.com/tamtakoe/gulp-msg/raw/master/example.png)
