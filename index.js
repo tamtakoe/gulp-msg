@@ -3,7 +3,6 @@ var gutil        = require('gulp-util');
 var through      = require('through2');
 var prettyHrtime = require('pretty-hrtime');
 var _            = require('lodash');
-_.mixin(require('lodash-deep'));
 
 var VALUE_REGEXP = /<%=\s*([^\s]+)\s*%>/g;
 
@@ -44,7 +43,7 @@ function notify(style, before, message, after, data) {
 
     for (var i = 0; i < tokens.length; i++) {
         if (i%2) {
-            result += variable(_.deepGet(data, tokens[i]) || '');
+            result += variable(_.get(data, tokens[i]) || '');
         } else {
             result += text(tokens[i] || '');
         }

@@ -1,7 +1,7 @@
 {
   "name": "gulp-msg",
   "description": "show command line messages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "tamtakoe/gulp-msg",
   "author": "tamtakoe <tamtakoe@gmail.com>",
   "files": [
@@ -14,8 +14,7 @@
   "dependencies": {
     "through2": "^0.6.3",
     "gulp-util": "^3.0.0",
-    "lodash": "^3.0.0",
-    "lodash-deep": "^1.6.0",
+    "lodash": "^3.8.0",
     "pretty-hrtime": "^1.0.0"
   },
   "engines": {
