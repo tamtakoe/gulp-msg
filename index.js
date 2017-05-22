@@ -104,7 +104,6 @@ function msg(style, useFlush) {
 
             if (!useFlush) {
                 args.data.file          = _.clone(file);
-                args.data.file.relative = path.relative(file.base, file.path);
                 args.data.file.basename = path.basename(file.path);
                 args.data.duration      = prettyHrtime(process.hrtime(start));
                 args.data.totalDuration = prettyHrtime(process.hrtime(totalStart));
