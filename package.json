@@ -12,10 +12,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "through2": "^0.6.3",
-    "gulp-util": "^3.0.0",
-    "lodash": "^3.8.0",
-    "pretty-hrtime": "^1.0.0"
+    "through2": "^2.0.3",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "pretty-hrtime": "^1.0.3"
   },
   "engines": {
     "node": ">= 0.10"
