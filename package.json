@@ -1,14 +1,15 @@
 {
   "name": "gulp-msg",
   "description": "show command line messages",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "tamtakoe/gulp-msg",
   "author": "tamtakoe <tamtakoe@gmail.com>",
   "files": [
     "index.js"
   ],
   "keywords": [
-    "gulpplugin", "notification"
+    "gulpplugin",
+    "notification"
   ],
   "license": "MIT",
   "dependencies": {
